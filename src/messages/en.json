@@ -289,6 +289,8 @@
       "verifyingSubtitle": "This will only take a few seconds. Please keep your device steady.",
       "success": "Verification Successful!",
       "successSubtitle": "Your identity has been verified. You can now enjoy 10% discount on all our products.",
+      "successWithNationality": "Verification Successful!",
+      "successWithNationalitySubtitle": "Your identity has been verified. Nationality: {nationality}. You can now enjoy 10% discount on all our products.",
       "error": "Verification Failed",
       "errorSubtitle": "We couldn't verify your identity at this time. Please try again."
     },

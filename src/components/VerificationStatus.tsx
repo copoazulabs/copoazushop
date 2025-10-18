@@ -7,16 +7,7 @@ import { useVerification } from '@/contexts/VerificationContext';
 
 export default function VerificationStatus() {
   const t = useTranslations('verification');
-  const { isVerified, verificationDate, clearVerification } = useVerification();
-  const [userNationality, setUserNationality] = React.useState<string | null>(null);
-
-  // Load nationality from localStorage
-  React.useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const nationality = localStorage.getItem('userNationality');
-      setUserNationality(nationality);
-    }
-  }, []);
+  const { isVerified, verificationDate, userNationality, clearVerification } = useVerification();
 
   if (!isVerified) {
     return null;
@@ -39,7 +30,7 @@ export default function VerificationStatus() {
       <div className="flex flex-col">
         <span className="text-xs font-semibold text-brand-dark dark:text-brand-background">
           {t('status.verified')}
-          {userNationality && (
+          {userNationality && userNationality !== 'Self Verified' && (
             <span className="ml-1 text-brand-primary dark:text-brand-light">
               • 🌍 {userNationality}
             </span>

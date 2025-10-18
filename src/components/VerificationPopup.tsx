@@ -17,6 +17,7 @@ export default function VerificationPopup({ isOpen, onClose, onVerificationCompl
   const t = useTranslations('verification');
   const [step, setStep] = useState<VerificationStep>('intro');
   const [isVerified, setIsVerified] = useState(false);
+  const [userNationality, setUserNationality] = useState<string | null>(null);
 
   // Close popup with Escape key
   useEffect(() => {
@@ -37,9 +38,10 @@ export default function VerificationPopup({ isOpen, onClose, onVerificationCompl
     };
   }, [isOpen, onClose]);
 
-  const handleVerificationSuccess = () => {
+  const handleVerificationSuccess = (nationality?: string) => {
     setStep('success');
     setIsVerified(true);
+    setUserNationality(nationality || null);
     onVerificationComplete(true);
     // Note: localStorage is handled by SelfVerificationButton
   };
@@ -129,10 +131,13 @@ export default function VerificationPopup({ isOpen, onClose, onVerificationCompl
                 <CheckCircle className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold text-[brand-dark] dark:text-[brand-background] mb-2">
-                {t('process.success')}
+                {userNationality ? t('process.successWithNationality') : t('process.success')}
               </h3>
               <p className="text-brand-neutral dark:text-brand-background mb-6">
-                {t('process.successSubtitle')}
+                {userNationality 
+                  ? t('process.successWithNationalitySubtitle', { nationality: userNationality })
+                  : t('process.successSubtitle')
+                }
               </p>
               <button
                 onClick={handleClose}

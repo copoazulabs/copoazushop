@@ -112,7 +112,7 @@ export default function CheckoutPage() {
             </div>
 
             {/* Verification Section */}
-            {!isVerified && (
+            {!isVerified ? (
               <div className="border-t border-brand-neutral dark:border-brand-neutral mt-6 pt-6 transition-colors duration-200">
                 <div className="bg-gradient-to-r from-brand-primary/10 to-brand-accent/10 dark:from-brand-primary/20 dark:to-brand-accent/20 rounded-lg p-4 mb-4">
                   <h3 className="text-lg font-semibold text-brand-dark dark:text-brand-background mb-2">
@@ -126,6 +126,10 @@ export default function CheckoutPage() {
                     variant="checkout"
                   />
                 </div>
+              </div>
+            ) : (
+              <div className="border-t border-brand-neutral dark:border-brand-neutral mt-6 pt-6 transition-colors duration-200">
+                <VerificationStatus />
               </div>
             )}
 

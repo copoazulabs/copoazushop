@@ -32,7 +32,7 @@ const modal = createAppKit({
   features: {
     analytics: true // Optional - defaults to your Cloud configuration
   },
-  themeMode: 'light', // Set to light mode, will be overridden by CSS
+  themeMode: 'dark', // Set to dark mode, will be overridden by CSS
   themeVariables: {
     // Typography - Match your site's Inter font
     '--w3m-font-family': 'Inter, system-ui, -apple-system, sans-serif',
@@ -54,7 +54,7 @@ export function Web3Provider({ children, cookies }: { children: ReactNode; cooki
   )
 
   // Optimized theme update function with debouncing
-  const updateAppKitTheme = useCallback(() => {
+  /*const updateAppKitTheme = useCallback(() => {
     const isDark = document.documentElement.classList.contains('dark')
     const modal = document.querySelector('w3m-modal')
 
@@ -131,7 +131,7 @@ export function Web3Provider({ children, cookies }: { children: ReactNode; cooki
     })
 
     return () => observer.disconnect()
-  }, [updateAppKitTheme, debouncedThemeUpdate])
+  }, [updateAppKitTheme, debouncedThemeUpdate])*/
 
   return (
     <WagmiProvider config={wagmiAdapter.wagmiConfig as Config} initialState={initialState}>

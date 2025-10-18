@@ -28,7 +28,7 @@ export const SelfVerificationButton: React.FC<SelfVerificationButtonProps> = ({
   const t = useTranslations('verification')
   const tCommon = useTranslations('common')
   const { address } = useAccount()
-  const { isVerified, setVerified } = useVerification()
+  const { isVerified, setVerified, userNationality: contextNationality } = useVerification()
 
   // Use connected wallet address or fallback to zero address
   const userId = address || ethers.ZeroAddress
@@ -209,7 +209,7 @@ export const SelfVerificationButton: React.FC<SelfVerificationButtonProps> = ({
     // Store nationality and update verification status using VerificationContext
     localStorage.setItem('userNationality', nationality)
     setUserNationality(nationality)
-    setVerified(true) // This will update the header message
+    setVerified(true, nationality) // This will update the header message with nationality
     setShowQR(false)
 
     console.log('🎉 Verification state updated!', { isVerified: true, nationality })
