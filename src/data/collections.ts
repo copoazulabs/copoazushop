@@ -8,39 +8,25 @@ export interface Collection {
 
 export const allCollections: Collection[] = [
   {
+    id: '1',
+    nameKey: 'cyberAccessories',
+    descriptionKey: 'cyberAccessories',
+    image: '/assets/collections/cyber.jpeg',
+    itemCount: 0
+  },
+  {
     id: '2',
-    nameKey: 'refiCollection',
-    descriptionKey: 'refiCollection',
-    image: '/assets/collections/refi.jpeg',
-    itemCount: 1
+    nameKey: 'solarpunkItems',
+    descriptionKey: 'solarpunkItems',
+    image: '/assets/collections/solarpunk.jpeg',
+    itemCount: 0
   },
   {
     id: '3',
-    nameKey: 'defiCollection',
-    descriptionKey: 'defiCollection',
-    image: '/assets/collections/defi.jpeg',
-    itemCount: 1
-  },
-  {
-    id: '4',
-    nameKey: 'governanceCollection',
-    descriptionKey: 'governanceCollection',
-    image: '/assets/collections/governance.jpeg',
-    itemCount: 1
-  },
-  {
-    id: '5',
-    nameKey: 'codingCollection',
-    descriptionKey: 'codingCollection',
-    image: '/assets/collections/code.jpeg',
-    itemCount: 1
-  },
-  {
-    id: '6',
-    nameKey: 'degenCollection',
-    descriptionKey: 'degenCollection',
-    image: '/assets/collections/degen.jpeg',
-    itemCount: 1
+    nameKey: 'pureCrypto',
+    descriptionKey: 'pureCrypto',
+    image: '/assets/collections/pure-crypto.jpeg',
+    itemCount: 0
   }
 ];
 

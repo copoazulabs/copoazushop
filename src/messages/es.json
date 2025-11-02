@@ -30,8 +30,8 @@
     "signup": "Registrarse"
   },
   "hero": {
-    "title": "Revolución de la Moda Web3",
-    "subtitle": "Descubre ropa y mercancía exclusiva con marca Web3. Conecta tu billetera, compra con cripto y únete a la revolución de la moda descentralizada.",
+    "title": "Úsalo. Hazlo tuyo. Mintéalo.",
+    "subtitle": "Entra en la nueva era del estilo.\nDonde la moda se une a la cadena de bloques y tu atuendo no solo se usa, sino que es tuyo, está acuñado y cobra vida en el mundo digital.\n\nÚnete al movimiento Cybercore, creado para creadores, soñadores y almas criptográficas que viven entre dos mundos.",
     "shopNow": "Comprar Ahora",
     "exploreCollections": "Explorar Colecciones",
     "merchandise": "Mercancía Web3",
@@ -39,18 +39,18 @@
   },
   "features": {
     "title": "¿Por qué elegir Copoazú Labs?",
-    "subtitle": "Experimenta el futuro de la moda con tecnología Web3 de vanguardia",
+    "subtitle": "Experimenta la moda a la velocidad del blockchain.\nNo somos solo una tienda, somos una sociedad que redefine la forma en que te conectas, posees y expresas tu yo digital.",
     "lightningFast": {
       "title": "Súper Rápido",
-      "description": "Transacciones instantáneas con tecnología blockchain"
+      "description": "Pagos instantáneos en criptomonedas. Sin esperas, sin intermediarios, solo Web3."
     },
     "securePrivate": {
       "title": "Seguro y Privado",
-      "description": "Tus datos se mantienen seguros con seguridad descentralizada"
+      "description": "Tus datos, tu billetera, tus reglas: todo protegido con tecnología descentralizada."
     },
     "communityDriven": {
       "title": "Impulsado por la Comunidad",
-      "description": "Únete a miles de entusiastas de Web3 en todo el mundo"
+      "description": "Únete a nuestra sociedad global de creadores y nativos de las criptomonedas que están dando forma al futuro de la moda."
     }
   },
   "products": {
@@ -176,12 +176,27 @@
         "name": "🌌 Colección Degen",
         "description": "Para los que viven al límite del criptoespacio. La Colección Degen captura la energía del trading, la adrenalina de los movimientos de mercado y la pasión por el riesgo calculado. Diseños atrevidos en pixel art que reflejan la esencia de la cultura Web3: irreverente, divertida y siempre lista para la próxima jugada.",
         "shortDescription": "Irreverente y lista para la próxima jugada"
+      },
+      "cyberAccessories": {
+        "name": "🔌 Cyber Accesorios",
+        "description": "Encuentra los mejores accesorios Cybercore para expresar tu personalidad y conectarte con tu lado digital. Diseñados para quienes viven entre lo físico y lo virtual, atrevidos, amantes de la tecnología y con un estilo disruptivo.",
+        "shortDescription": "Expresa tu personalidad digital"
+      },
+      "solarpunkItems": {
+        "name": "🌿 Items Solarpunk",
+        "description": "Descubre los elementos esenciales, gadgets, accesorios y todo lo que necesitas para vivir y vestir el futuro con Solarpunk. Moda sostenible, vibrante y visionaria inspirada en la naturaleza, la tecnología y la esperanza.",
+        "shortDescription": "Vive y viste el futuro"
+      },
+      "pureCrypto": {
+        "name": "💎 Puro Cripto",
+        "description": "Donde el blockchain se encuentra con la moda urbana. Explora la moda inspirada en la cultura cripto: DeFi, vibraciones degen y todo lo relacionado con la Web3. Para aquellos que viven en la cadena.",
+        "shortDescription": "Blockchain y moda urbana"
       }
     }
   },
   "about": {
     "title": "Acerca de Copoazú Labs",
-    "subtitle": "Liderando la revolución de la moda Web3 con tecnología blockchain innovadora y prácticas sostenibles",
+    "subtitle": "Copoazú Labs es una fusión de moda, Web3 y regeneración.\nDiseñamos ropa y accesorios nativos digitales que conectan identidad, tecnología y cultura. Cada pieza es más que estilo, es una declaración de quién eres en ambos mundos: el físico y el virtual.\n\nNacido en Latinoamérica, inspirado en el futuro.\nLlévalo. Hazlo tuyo. Mintéalo.",
     "comingSoon": "Próximamente",
     "underDevelopment": "Nuestra página acerca de está en desarrollo. ¡Pronto aprenderás más sobre Copoazú Labs y nuestra misión!",
     "mission": {

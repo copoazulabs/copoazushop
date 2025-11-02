@@ -30,8 +30,8 @@
     "signup": "Sign Up"
   },
   "hero": {
-    "title": "Web3 Fashion Revolution",
-    "subtitle": "Discover exclusive Web3 branded clothing and merchandise. Connect your wallet, shop with crypto, and join the decentralized fashion revolution.",
+    "title": "Wear it. Own it. Mint it.",
+    "subtitle": "Step into the new era of style.\nWhere fashion meets the blockchain and your outfit isn't just worn, it's owned, minted, and alive in the digital realm.\n\nJoin the Cybercore movement, made for creators, dreamers, and crypto souls who live between worlds.",
     "shopNow": "Shop Now",
     "exploreCollections": "Explore Collections",
     "merchandise": "Web3 Merchandise",
@@ -39,18 +39,18 @@
   },
   "features": {
     "title": "Why Choose Copoazú Labs?",
-    "subtitle": "Experience the future of fashion with cutting-edge Web3 technology",
+    "subtitle": "Experience fashion at the speed of blockchain.\nWe are not just a store, we are a society that redefines how you connect, own, and express your digital self.",
     "lightningFast": {
       "title": "Lightning Fast",
-      "description": "Instant transactions with blockchain technology"
+      "description": "Instant crypto payments. No waiting, no middlemen, just pure Web3 flow."
     },
     "securePrivate": {
       "title": "Secure & Private",
-      "description": "Your data stays safe with decentralized security"
+      "description": "Your data, your wallet, your rules: all protected with decentralized tech."
     },
     "communityDriven": {
       "title": "Community Driven",
-      "description": "Join thousands of Web3 enthusiasts worldwide"
+      "description": "Join a global tribe of creators, dreamers, and crypto natives shaping the future of fashion."
     }
   },
   "products": {
@@ -176,12 +176,27 @@
         "name": "🌌 Degen Collection",
         "description": "For those who live on the edge of the crypto space. The Degen Collection captures the energy of trading, the adrenaline of market movements and the passion for calculated risk. Bold pixel art designs that reflect the essence of Web3 culture: irreverent, fun and always ready for the next move.",
         "shortDescription": "Irreverent and ready for the next move"
+      },
+      "cyberAccessories": {
+        "name": "🔌 Cyber Accessories",
+        "description": "Find the best Cybercore accessories to express your personality and connect with your digital side. Designed for those who live between the physical and virtual worlds, who are daring, tech-loving, and have a disruptive style.",
+        "shortDescription": "Express your digital personality"
+      },
+      "solarpunkItems": {
+        "name": "🌿 Solarpunk Items",
+        "description": "Discover Solarpunk essentials, gadgets, accessories, and everything you need to live and wear the future. Sustainable, vibrant, and visionary fashion inspired by nature, technology, and hope.",
+        "shortDescription": "Live and wear the future"
+      },
+      "pureCrypto": {
+        "name": "💎 Pure Crypto",
+        "description": "Where blockchain meets streetwear. Explore fashion inspired by crypto culture — DeFi, degen vibes, and everything Web3. For those who live on-chain.",
+        "shortDescription": "Blockchain meets streetwear"
       }
     }
   },
   "about": {
     "title": "About Copoazú Labs",
-    "subtitle": "Leading the Web3 fashion revolution with innovative blockchain technology and sustainable practices",
+    "subtitle": "Copoazú Labs is a fusion of fashion, Web3, and regeneration.\nWe design digital-native clothing and accessories that connect identity, technology, and culture. Each piece is more than style — it's a statement of who you are in both worlds: physical and virtual.\n\nBorn in Latin America, inspired by the future.\nWear it. Own it. Mint it.",
     "comingSoon": "Coming Soon",
     "underDevelopment": "Our about page is under development. Learn more about Copoazú Labs and our mission soon!",
     "mission": {
